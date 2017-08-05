@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					8C280A191F363B0700A28DE4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DSYHS4PZE3;
 						ProvisioningStyle = Automatic;
 					};
 					8C280A301F363B0700A28DE4 = {
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSYHS4PZE3;
 				INFOPLIST_FILE = MiraclePill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ernestsports.MiraclePill;
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSYHS4PZE3;
 				INFOPLIST_FILE = MiraclePill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ernestsports.MiraclePill;

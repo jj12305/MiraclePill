@@ -19,6 +19,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var zipLabel: UILabel!
     @IBOutlet weak var zipText: UITextField!
     
+    @IBOutlet weak var buyNowBtn: UIButton!
+    @IBOutlet weak var successImg: UIImageView!
     
     let states = ["Alaska", "Arkansas", "Alabama"]
     
@@ -63,6 +65,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         countryText.isHidden = false
         zipLabel.isHidden = false
         zipText.isHidden = false
+    }
+    
+    @IBAction func buyNowBtnPressed(_ sender: Any) {
+ 
+        successImg.isHidden = false
     }
 }
 
